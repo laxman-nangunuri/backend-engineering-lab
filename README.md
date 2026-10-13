@@ -1,4 +1,4 @@
-Engineering Journal
+Backend Engineering Journal
 Day 1
 Goal: Set up engineering workspace.
 
