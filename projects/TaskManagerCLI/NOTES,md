@@ -1,0 +1,17 @@
+Phase 1 Sprint 1
+Built:
+
+Console application
+Menu system
+Issue:
+
+Application crashed on invalid input
+Root Cause:
+
+int.Parse throws exception for non-numeric values
+Fix:
+
+Replaced with int.TryParse
+Learning:
+
+Never trust user input

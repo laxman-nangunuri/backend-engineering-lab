@@ -8,7 +8,10 @@ Console.WriteLine("3. Exit");
 Console.WriteLine();
 Console.Write("Select Option: ");
 
-var option = Console.ReadLine();
-
-Console.WriteLine();
-Console.WriteLine($"You selected: {option}");
+if(int.TryParse(Console.ReadLine(), out int option))
+{
+    Console.WriteLine($"You selected: {option}");
+}
+else{
+    Console.WriteLine("Invalid input.");
+}
